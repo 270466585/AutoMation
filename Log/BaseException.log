@@ -1,0 +1,4 @@
+Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmpczNwwf/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/<.notify (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmpczNwwf/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
