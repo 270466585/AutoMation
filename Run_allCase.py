@@ -17,6 +17,8 @@ if __name__=="__main__":
     fp=open(repore_abspath,'wb')
     runner=HTMLTestRunner.HTMLTestRunner(stream=fp,
                                          title='供应链管理系统自动化测试报告：',
-                                         description=u'用例执行情况')
+                                         description=u'用例执行情况',
+                                         verbosity=2,
+                                         retry=1)
     runner.run(all_case())
     fp.close()
