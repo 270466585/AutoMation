@@ -14,7 +14,7 @@ def getCsv():
         return rows
 
 
-def getExcel1(Value1, Value2, file_name='/Users/Macx/PycharmProjects/GYL_project/testData/DataBase.xlsx'):
+def getExcel1(Value1, Value2, file_name=r'C:\Users\ZhaoQiao\AutoMation\testData\DataBase.xlsx'):
     '''
 
     :param Value1: 表格行
@@ -26,7 +26,7 @@ def getExcel1(Value1, Value2, file_name='/Users/Macx/PycharmProjects/GYL_project
     sheet = book.sheet_by_index(0)
     return sheet.cell_value(Value1, Value2)
 
-def getExcel2(Value1, Value2, file_name='/Users/Macx/PycharmProjects/GYL_project/testData/DataBase.xlsx'):
+def getExcel2(Value1, Value2, file_name=r'C:\Users\ZhaoQiao\AutoMation\testData\DataBase.xlsx'):
     '''
 
     :param Value1: 表格行
@@ -39,7 +39,7 @@ def getExcel2(Value1, Value2, file_name='/Users/Macx/PycharmProjects/GYL_project
     return sheet.cell_value(Value1, Value2)
 
 
-def getDdtEcxel(file_name='/Users/Macx/PycharmProjects/GYL_project/testData/DataBase.xlsx'):
+def getDdtEcxel(file_name=r'C:\Users\ZhaoQiao\AutoMation\testData/DataBase.xlsx'):
     rows = []
     book = xlrd.open_workbook(file_name)
     sheet = book.sheet_by_index(0)
@@ -47,7 +47,7 @@ def getDdtEcxel(file_name='/Users/Macx/PycharmProjects/GYL_project/testData/Data
         rows.append(list(sheet.row_values(row, 0, sheet.ncols)))
     return rows
 
-def getExcel3(Value1, Value2, Value3,file_name='/Users/Macx/PycharmProjects/GYL_project/testData/DataBase.xlsx'):
+def getExcel3(Value1, Value2, Value3,file_name=r'C:\Users\ZhaoQiao\AutoMation\testData/DataBase.xlsx'):
     '''
 
     :param Value1: 表格行

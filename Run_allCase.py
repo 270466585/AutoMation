@@ -1,7 +1,7 @@
 # coding:utf-8
 import HTMLTestRunner,unittest,os,time
 #用例路径
-case_path=os.path.join(os.getcwd(),"testCase")
+case_path=os.path.join(os.getcwd(),"TestCase1")
 #报告路径
 report_path=os.path.join(os.getcwd(),"Result")
 

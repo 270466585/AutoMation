@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="825d74f8-da7a-49ed-9e01-5f045939bccd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base_page/System_settingsPage/JuesePage.py" afterPath="$PROJECT_DIR$/Base_page/System_settingsPage/JuesePage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py" afterPath="$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Log/2017_12_01.log" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Result/2017_12_01 09_19_12result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Result/2017_12_01 09_22_11result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Result/2017_12_01 09_22_50result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Result/2017_12_01 09_29_33result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Result/2017_12_01 09_40_35result.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestCase1/DD1_login_logout/__init__.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestCase1/DD1_login_logout/test_login_logout.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/TestCase1/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Run_allCase.py" afterPath="$PROJECT_DIR$/Run_allCase.py" />
+      <change beforePath="$PROJECT_DIR$/common/read_Data.py" afterPath="$PROJECT_DIR$/common/read_Data.py" />
+      <change beforePath="$PROJECT_DIR$/testCase/DD1_login_logout/__init__.py" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/testCase/DD1_login_logout/test_login_logout.py" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,134 +26,107 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL3.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL3 Coverage Results" MODIFIED="1509355502788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Jihua_Jihua_test_CCRK1.coverage" NAME="Unittests for test_Jihua.Jihua.test_CCRK1 Coverage Results" MODIFIED="1510191567077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1511160455967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL5.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL5 Coverage Results" MODIFIED="1509355130039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH5.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH5 Coverage Results" MODIFIED="1510641885063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Xiaoshou_CaiGou_test_XSDD3.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_XSDD3 Coverage Results" MODIFIED="1511160413064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_2Huopin_py.coverage" NAME="Unittests in test_2Huopin.py Coverage Results" MODIFIED="1511255480127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL2.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL2 Coverage Results" MODIFIED="1509348160587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CaiGou_test_CGDD1.coverage" NAME="Unittests for test_Chucang.CaiGou.test_CGDD1 Coverage Results" MODIFIED="1509934308934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Caidan_py.coverage" NAME="Unittests in test_Caidan.py Coverage Results" MODIFIED="1511253199608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK3.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK3 Coverage Results" MODIFIED="1509937990054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_5Kuquleibie_py.coverage" NAME="Unittests in test_5Kuquleibie.py Coverage Results" MODIFIED="1511255831599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL3.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL3 Coverage Results" MODIFIED="1511245774700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Mokuai_MoKuai_test_CDGL1.coverage" NAME="Unittests for test_Mokuai.MoKuai.test_CDGL1 Coverage Results" MODIFIED="1511253442169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1509347623832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKJH7.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKJH7 Coverage Results" MODIFIED="1510711818869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Chucang_py.coverage" NAME="Unittests in test_Chucang.py Coverage Results" MODIFIED="1510016807324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_3Baozhuang_py.coverage" NAME="Unittests in test_3Baozhuang.py Coverage Results" MODIFIED="1511255544125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Caidan_CaiDan_test_CDGL5.coverage" NAME="Unittests for test_Caidan.CaiDan.test_CDGL5 Coverage Results" MODIFIED="1511251872882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/test$Run_all.coverage" NAME="Run_all Coverage Results" MODIFIED="1508747819729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL6.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL6 Coverage Results" MODIFIED="1511167635143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/AutoMation$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1512091773340" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Caigou_CaiGou_test_XSDD3.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD3 Coverage Results" MODIFIED="1511158321066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Geren_py.coverage" NAME="Unittests in test_Geren.py Coverage Results" MODIFIED="1511254880975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD4.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD4 Coverage Results" MODIFIED="1509432151145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chucang_Chucang_test_CCRK5.coverage" NAME="Unittests for test_Chucang.Chucang.test_CCRK5 Coverage Results" MODIFIED="1511942658619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL6.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL6 Coverage Results" MODIFIED="1511167635143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Caigou_py.coverage" NAME="Unittests in test_Caigou.py Coverage Results" MODIFIED="1509434365642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_4Sku_py.coverage" NAME="Unittests in test_4Sku.py Coverage Results" MODIFIED="1511255607872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Caidan_CaiDan_test_CDGL5.coverage" NAME="Unittests for test_Caidan.CaiDan.test_CDGL5 Coverage Results" MODIFIED="1511251872882" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Caidan_CaiDan_test_CDGL2.coverage" NAME="Unittests for test_Caidan.CaiDan.test_CDGL2 Coverage Results" MODIFIED="1511251192000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_9Hetong_py.coverage" NAME="Unittests in test_9Hetong.py Coverage Results" MODIFIED="1511255980057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Kucun_KuCun_test_KCGL1.coverage" NAME="Unittests for test_Kucun.KuCun.test_KCGL1 Coverage Results" MODIFIED="1510803669395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/test$Run_all.coverage" NAME="Run_all Coverage Results" MODIFIED="1508747819729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL6.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL6 Coverage Results" MODIFIED="1509416937721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Geren_GeRen_test_GRXX2.coverage" NAME="Unittests for test_Geren.GeRen.test_GRXX2 Coverage Results" MODIFIED="1511254854527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL1.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL1 Coverage Results" MODIFIED="1509325879603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_2Huopin_JiChu1_test_hp1.coverage" NAME="Unittests for test_2Huopin.JiChu1.test_hp1 Coverage Results" MODIFIED="1511255323703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_8Kehu_py.coverage" NAME="Unittests in test_8Kehu.py Coverage Results" MODIFIED="1511255936735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Xiaoshou_CaiGou_test_XSDD2.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_XSDD2 Coverage Results" MODIFIED="1509437633085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_2Huopin_py.coverage" NAME="Unittests in test_2Huopin.py Coverage Results" MODIFIED="1511255480127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Jihua_py.coverage" NAME="Unittests in test_Jihua.py Coverage Results" MODIFIED="1511943035069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK4.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK4 Coverage Results" MODIFIED="1509949265914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Caigou_py.coverage" NAME="Unittests in test_Caigou.py Coverage Results" MODIFIED="1511159038613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Xiaoshou_CaiGou_test_XSDD3.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_XSDD3 Coverage Results" MODIFIED="1511160413064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Juese_JueSe_test_JSGL1.coverage" NAME="Unittests for test_Juese.JueSe.test_JSGL1 Coverage Results" MODIFIED="1511939264339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
     <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL9.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL9 Coverage Results" MODIFIED="1510801958190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD5.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD5 Coverage Results" MODIFIED="1509433214024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_CCRK3.coverage" NAME="Unittests for test_Jihua.Jihua.test_CCRK3 Coverage Results" MODIFIED="1510282349142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKJH4.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKJH4 Coverage Results" MODIFIED="1510710486323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1511256072263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL4.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL4 Coverage Results" MODIFIED="1511245958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH7.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH7 Coverage Results" MODIFIED="1510643692221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH4.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH4 Coverage Results" MODIFIED="1510641918168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_7Gongyings_py.coverage" NAME="Unittests in test_7Gongyings.py Coverage Results" MODIFIED="1511255873191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKGL2.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKGL2 Coverage Results" MODIFIED="1511249326709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_XSDD6.coverage" NAME="Unittests for test_Chucang.CangKu.test_XSDD6 Coverage Results" MODIFIED="1509939713330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL2.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL2 Coverage Results" MODIFIED="1511245371141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Chucang_py.coverage" NAME="Unittests in test_Chucang.py Coverage Results" MODIFIED="1511942823522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Yonghu_py.coverage" NAME="Unittests in test_Yonghu.py Coverage Results" MODIFIED="1511254153760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Juese_py.coverage" NAME="Unittests in test_Juese.py Coverage Results" MODIFIED="1511939519686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Chuku_py.coverage" NAME="Unittests in test_Chuku.py Coverage Results" MODIFIED="1511247487514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK5.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK5 Coverage Results" MODIFIED="1510016090478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Kucun_py.coverage" NAME="Unittests in test_Kucun.py Coverage Results" MODIFIED="1511163299121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/test$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1508745051098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL5.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL5 Coverage Results" MODIFIED="1509355130039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK3.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK3 Coverage Results" MODIFIED="1509937990054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Caigou_py.coverage" NAME="Unittests in test_Caigou.py Coverage Results" MODIFIED="1509434365642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD3.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD3 Coverage Results" MODIFIED="1509431374522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL5.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL5 Coverage Results" MODIFIED="1511167588884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Mokuai_py.coverage" NAME="Unittests in test_Mokuai.py Coverage Results" MODIFIED="1511939601203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_5Kuqu_py.coverage" NAME="Unittests in test_5Kuqu.py Coverage Results" MODIFIED="1511255678427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1509417462302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK2.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK2 Coverage Results" MODIFIED="1509936542176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Chucang_py.coverage" NAME="Unittests in test_Chucang.py Coverage Results" MODIFIED="1510016807324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL8.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL8 Coverage Results" MODIFIED="1511167810823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Kucun_KuCun_test_KCGL1.coverage" NAME="Unittests for test_Kucun.KuCun.test_KCGL1 Coverage Results" MODIFIED="1510803669395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK6.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK6 Coverage Results" MODIFIED="1510016025634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD6.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD6 Coverage Results" MODIFIED="1509434338768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL2.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL2 Coverage Results" MODIFIED="1509348160587" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_3Baozhuang_py.coverage" NAME="Unittests in test_3Baozhuang.py Coverage Results" MODIFIED="1511255544125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL1.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL1 Coverage Results" MODIFIED="1511167074289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL7.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL7 Coverage Results" MODIFIED="1511167774281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Ruku_py.coverage" NAME="Unittests in test_Ruku.py Coverage Results" MODIFIED="1511250873394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_CGDD2.coverage" NAME="Unittests for test_Caigou.CaiGou.test_CGDD2 Coverage Results" MODIFIED="1509435012214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CaiGou_test_CGDD1.coverage" NAME="Unittests for test_Chucang.CaiGou.test_CGDD1 Coverage Results" MODIFIED="1509934308934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH6.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH6 Coverage Results" MODIFIED="1510651540254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Rizhi_py.coverage" NAME="Unittests in test_Rizhi.py Coverage Results" MODIFIED="1511254917289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
-    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL4.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL4 Coverage Results" MODIFIED="1509354878683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/test$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1508749060205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Jihua_py.coverage" NAME="Unittests in test_Jihua.py Coverage Results" MODIFIED="1510192732109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
     <SUITE FILE_PATH="coverage/GYL_Automation$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1509676124156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH5.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH5 Coverage Results" MODIFIED="1510641885063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
-    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK6.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK6 Coverage Results" MODIFIED="1510016025634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_2Huopin_JiChu1_test_hp1.coverage" NAME="Unittests for test_2Huopin.JiChu1.test_hp1 Coverage Results" MODIFIED="1511255323703" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1511256072263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL5.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL5 Coverage Results" MODIFIED="1511167588884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Juese_JueSe_test_JSGL1.coverage" NAME="Unittests for test_Juese.JueSe.test_JSGL1 Coverage Results" MODIFIED="1511939264339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Chuku_py.coverage" NAME="Unittests in test_Chuku.py Coverage Results" MODIFIED="1511247487514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Rizhi_py.coverage" NAME="Unittests in test_Rizhi.py Coverage Results" MODIFIED="1511254917289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL4.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL4 Coverage Results" MODIFIED="1509354878683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chucang_Chucang_test_CCRK5.coverage" NAME="Unittests for test_Chucang.Chucang.test_CCRK5 Coverage Results" MODIFIED="1511942658619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_XSDD6.coverage" NAME="Unittests for test_Chucang.CangKu.test_XSDD6 Coverage Results" MODIFIED="1509939713330" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL6.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL6 Coverage Results" MODIFIED="1509416937721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_4Sku_py.coverage" NAME="Unittests in test_4Sku.py Coverage Results" MODIFIED="1511255607872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD5.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD5 Coverage Results" MODIFIED="1509433214024" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1511160455967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK5.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK5 Coverage Results" MODIFIED="1510016090478" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Ruku_py.coverage" NAME="Unittests in test_Ruku.py Coverage Results" MODIFIED="1511250873394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Jihua_Jihua_test_CCRK1.coverage" NAME="Unittests for test_Jihua.Jihua.test_CCRK1 Coverage Results" MODIFIED="1510191567077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Xiaoshou_CaiGou_test_XSDD2.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_XSDD2 Coverage Results" MODIFIED="1509437633085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKJH4.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKJH4 Coverage Results" MODIFIED="1510710486323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Caidan_CaiDan_test_CDGL2.coverage" NAME="Unittests for test_Caidan.CaiDan.test_CDGL2 Coverage Results" MODIFIED="1511251192000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH4.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH4 Coverage Results" MODIFIED="1510641918168" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Caigou_py.coverage" NAME="Unittests in test_Caigou.py Coverage Results" MODIFIED="1511159038613" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK4.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK4 Coverage Results" MODIFIED="1509949265914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/AutoMation$test_login_logout.coverage" NAME="test_login_logout Coverage Results" MODIFIED="1512091442529" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TestCase1/DD1_login_logout" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL1.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL1 Coverage Results" MODIFIED="1511167074289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_5Kuquleibie_py.coverage" NAME="Unittests in test_5Kuquleibie.py Coverage Results" MODIFIED="1511255831599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Geren_GeRen_test_GRXX2.coverage" NAME="Unittests for test_Geren.GeRen.test_GRXX2 Coverage Results" MODIFIED="1511254854527" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/test$Run_allCase.coverage" NAME="Run_allCase Coverage Results" MODIFIED="1508749060205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_XSDD4.coverage" NAME="Unittests for test_Caigou.CaiGou.test_XSDD4 Coverage Results" MODIFIED="1509432151145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Kucun_py.coverage" NAME="Unittests in test_Kucun.py Coverage Results" MODIFIED="1511163299121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Caigou_CaiGou_test_CGDD2.coverage" NAME="Unittests for test_Caigou.CaiGou.test_CGDD2 Coverage Results" MODIFIED="1509435012214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1509417462302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Mokuai_py.coverage" NAME="Unittests in test_Mokuai.py Coverage Results" MODIFIED="1511939601203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_7Gongyings_py.coverage" NAME="Unittests in test_7Gongyings.py Coverage Results" MODIFIED="1511255873191" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_5Kuqu_py.coverage" NAME="Unittests in test_5Kuqu.py Coverage Results" MODIFIED="1511255678427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL7.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL7 Coverage Results" MODIFIED="1511167774281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/test$Unittests_in_test_case_py.coverage" NAME="Unittests in test_case.py Coverage Results" MODIFIED="1508745051098" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL1.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL1 Coverage Results" MODIFIED="1509325879603" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKGL2.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKGL2 Coverage Results" MODIFIED="1511249326709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL4.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL4 Coverage Results" MODIFIED="1511245958373" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Juese_py.coverage" NAME="Unittests in test_Juese.py Coverage Results" MODIFIED="1511939519686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Jihua_py.coverage" NAME="Unittests in test_Jihua.py Coverage Results" MODIFIED="1511943035069" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Mokuai_MoKuai_test_CDGL1.coverage" NAME="Unittests for test_Mokuai.MoKuai.test_CDGL1 Coverage Results" MODIFIED="1511253442169" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Yonghu_py.coverage" NAME="Unittests in test_Yonghu.py Coverage Results" MODIFIED="1511254153760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_for_test_Xiaoshou_CaiGou_test_CDGL3.coverage" NAME="Unittests for test_Xiaoshou.CaiGou.test_CDGL3 Coverage Results" MODIFIED="1509355502788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL2.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL2 Coverage Results" MODIFIED="1511245371141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_Chucang_py.coverage" NAME="Unittests in test_Chucang.py Coverage Results" MODIFIED="1511942823522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD3_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH6.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH6 Coverage Results" MODIFIED="1510651540254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Jihua_Jihua_test_RKJH7.coverage" NAME="Unittests for test_Jihua.Jihua.test_RKJH7 Coverage Results" MODIFIED="1510643692221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL3.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL3 Coverage Results" MODIFIED="1511245774700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Ruku_RuKu_test_RKJH7.coverage" NAME="Unittests for test_Ruku.RuKu.test_RKJH7 Coverage Results" MODIFIED="1510711818869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/GYL_Auto$Unittests_in_test_Xiaoshou_py.coverage" NAME="Unittests in test_Xiaoshou.py Coverage Results" MODIFIED="1509347623832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_8Kehu_py.coverage" NAME="Unittests in test_8Kehu.py Coverage Results" MODIFIED="1511255936735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_for_test_Chuku_ChuKU_test_CKGL8.coverage" NAME="Unittests for test_Chuku.ChuKU.test_CKGL8 Coverage Results" MODIFIED="1511167810823" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_cangkuguanli" />
+    <SUITE FILE_PATH="coverage/Aotomated_testing$Unittests_in_test_9Hetong_py.coverage" NAME="Unittests in test_9Hetong.py Coverage Results" MODIFIED="1511255980057" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi" />
+    <SUITE FILE_PATH="coverage/GYL_Automation$Unittests_for_test_Chucang_CangKu_test_CCRK2.coverage" NAME="Unittests for test_Chucang.CangKu.test_CCRK2 Coverage Results" MODIFIED="1509936542176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testCase/DD_dingdanguanli" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="C:\Users\ZhaoQiao\AutoMation\exportToHTML" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Run_allCase.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Run_allCase.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="260">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_Mokuai.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Mokuai.py">
+      <file leaf-file-name="read_Data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/read_Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2069">
-              <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
-              <folding>
-                <element signature="e#16#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_Chucang.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="194" column="19" lean-forward="true" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_Jihua.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Jihua.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
-              <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ChucangPage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Base_page/Order_managementPage/ChucangPage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+            <state relative-caret-position="-279">
+              <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -155,6 +140,9 @@
         <option value="Python Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -173,7 +161,6 @@
         <option value="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi/test_8Kehu.py" />
         <option value="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi/test_9Hetong.py" />
         <option value="$PROJECT_DIR$/Base_page/System_settingsPage/RizhiPage.py" />
-        <option value="$PROJECT_DIR$/common/read_Data.py" />
         <option value="$PROJECT_DIR$/Base_page/Order_managementPage/XiaoshouPage.py" />
         <option value="$PROJECT_DIR$/common/Global_function.py" />
         <option value="$PROJECT_DIR$/Base_page/Order_managementPage/ChucangPage.py" />
@@ -201,12 +188,13 @@
         <option value="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi/test_2Huopin.py" />
         <option value="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi/test_3Baozhuang.py" />
         <option value="$PROJECT_DIR$/testCase/DD_xitongshezhi/DD_jichuxinxi/test_5Kuqu.py" />
-        <option value="$PROJECT_DIR$/Run_allCase.py" />
         <option value="$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Jichu.py" />
         <option value="$PROJECT_DIR$/testCase/DD2_xitongshezhi/DD_jichuxinxi/test_6Kuqu.py" />
         <option value="$PROJECT_DIR$/testCase/DD2_xitongshezhi/DD_jichuxinxi/test_7Gongyings.py" />
         <option value="$PROJECT_DIR$/Base_page/System_settingsPage/JuesePage.py" />
         <option value="$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py" />
+        <option value="$PROJECT_DIR$/Run_allCase.py" />
+        <option value="$PROJECT_DIR$/common/read_Data.py" />
       </list>
     </option>
   </component>
@@ -217,10 +205,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
-    <option name="y" value="24" />
-    <option name="width" value="1287" />
-    <option name="height" value="778" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1348" />
+    <option name="height" value="686" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -229,15 +217,19 @@
           <State>
             <id />
           </State>
+          <State>
+            <id>Python</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>AngularJS</id>
+            <id>PyInterpreterInspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -253,153 +245,32 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="Aotomated_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aotomated_testing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aotomated_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aotomated_testing" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aotomated_testing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aotomated_testing" type="462c0819:PsiDirectoryNode" />
-              <item name="Result" type="462c0819:PsiDirectoryNode" />
+              <item name="AutoMation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutoMation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ZhaoQiao\AutoMation\TestCase1" />
       <recent name="$PROJECT_DIR$/testCase" />
       <recent name="$PROJECT_DIR$/testCase1" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-          <PATH vcs="svn" revision="9">$PROJECT_DIR$/Result/2017_11_03 10_28_44result.html</PATH>
-          <PATH vcs="svn" revision="9">$PROJECT_DIR$/Result/2017_10_23 16_49_25result.html</PATH>
-          <PATH vcs="svn" revision="9">$PROJECT_DIR$/Result/2017_10_23 16_45_57result.html</PATH>
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -413,8 +284,46 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_Jihua.py">
-    <configuration name="Unittests for test_Chucang.Chucang.test_CCRK5" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.Run_allCase">
+    <configuration name="Run_allCase" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Run_allCase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="test_login_logout" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TestCase1/DD1_login_logout" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TestCase1/DD1_login_logout/test_login_logout.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Unittests for test_Chucang.Chucang.test_CCRK5" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -459,22 +368,7 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Jihua.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <configuration name="Unittests in test_Juese.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testCase/DD2_xitongshezhi" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="test" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Juese.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-    </configuration>
-    <configuration name="Unittests in test_Mokuai.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests in test_Mokuai.py" type="tests" factoryName="Unittests" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -489,20 +383,19 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Mokuai.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_Juese.py" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python.Run_allCase" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_Mokuai.py" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_Chucang.Chucang.test_CCRK5" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_Chucang.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_Jihua.py" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_login_logout" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_Chucang.py" />
+      <item index="5" class="java.lang.String" itemvalue="Python tests.Unittests in test_Jihua.py" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_Jihua.py" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_Chucang.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for test_Chucang.Chucang.test_CCRK5" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_Mokuai.py" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_Juese.py" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.test_login_logout" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_Jihua.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_Chucang.py" />
       </list>
     </recent_temporary>
   </component>
@@ -631,21 +524,21 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="24" width="1287" height="778" extended-state="0" />
-    <editor active="true" />
+    <frame x="1" y="1" width="1348" height="686" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23935743" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.193265" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26169845" sideWeight="0.503003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26169845" sideWeight="0.496997" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43045387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22822823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43045387" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="SVN Repositories" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15080526" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -654,6 +547,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -693,13 +587,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="662" column="64" lean-forward="true" selection-start-line="660" selection-start-column="8" selection-end-line="662" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py" />
     <entry file="file://$PROJECT_DIR$/common/Global_function.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -720,15 +608,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="51" column="44" lean-forward="true" selection-start-line="51" selection-start-column="44" selection-end-line="51" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/read_Data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="55" column="12" lean-forward="true" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -746,34 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_16.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_15.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_14.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_10.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_16.log" />
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_15.log" />
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_14.log" />
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_10.log" />
     <entry file="file://$PROJECT_DIR$/Run_all.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="689">
@@ -820,7 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="105" column="40" lean-forward="true" selection-start-line="105" selection-start-column="40" selection-end-line="105" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -853,19 +707,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/DD1_login_logout/test_login_logout.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2299">
-          <caret line="126" column="0" lean-forward="true" selection-start-line="126" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Caidan.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="127" column="19" lean-forward="true" selection-start-line="127" selection-start-column="19" selection-end-line="127" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -873,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1102">
           <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -888,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="48" column="19" lean-forward="true" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -896,9 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2479">
           <caret line="134" column="19" lean-forward="true" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-          <folding>
-            <element signature="e#16#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -962,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3059">
           <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -970,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2926">
           <caret line="162" column="40" lean-forward="true" selection-start-line="162" selection-start-column="40" selection-end-line="162" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1002,37 +840,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Run_allCase.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="14" lean-forward="false" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_21.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-8897">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Log/2017_11_29.log">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_21.log" />
+    <entry file="file://$PROJECT_DIR$/Log/2017_11_29.log" />
     <entry file="file://$PROJECT_DIR$/Base_page/System_settingsPage/JuesePage.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-228">
           <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
-          <folding>
-            <element signature="e#16#57#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1040,17 +853,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="367">
           <caret line="108" column="19" lean-forward="true" selection-start-line="108" selection-start-column="19" selection-end-line="108" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testCase/DD2_xitongshezhi/test_Mokuai.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2069">
-          <caret line="136" column="19" lean-forward="true" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
+        <state relative-caret-position="3328">
+          <caret line="136" column="19" lean-forward="false" selection-start-line="136" selection-start-column="19" selection-end-line="136" selection-end-column="19" />
           <folding>
-            <element signature="e#16#31#0" expanded="true" />
+            <element signature="e#16#31#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4836">
+          <caret line="194" column="19" lean-forward="false" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1062,18 +882,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Chucang.py">
+    <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Jihua.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="194" column="19" lean-forward="true" selection-start-line="194" selection-start-column="19" selection-end-line="194" selection-end-column="19" />
+        <state relative-caret-position="246">
+          <caret line="182" column="34" lean-forward="false" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testCase/DD3_dingdanguanli/test_Jihua.py">
+    <entry file="file://$PROJECT_DIR$/TestCase1/DD1_login_logout/test_login_logout.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="182" column="34" lean-forward="true" selection-start-line="182" selection-start-column="34" selection-end-line="182" selection-end-column="34" />
+        <state relative-caret-position="76">
+          <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding>
+            <element signature="e#16#31#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Run_allCase.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/read_Data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="45" column="37" lean-forward="true" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>

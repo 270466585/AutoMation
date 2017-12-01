@@ -1,0 +1,60 @@
+[2017-12-01 09:19:22,848] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:19:22,854] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:19:22,855] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:19:22,855] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:19:22,857] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:19:22,858] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,858] - remote_connection.py] - DEBUG: DELETE http://127.0.0.1:49462/hub/session/1a68cffa-9eb6-45f4-9db7-99573d3e991a {"sessionId": "1a68cffa-9eb6-45f4-9db7-99573d3e991a"}
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:19:22,871] - remote_connection.py] - DEBUG: Finished Request
+[2017-12-01 09:22:18,772] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:22:19,499] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:22:19,891] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:22:20,191] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:22:20,634] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:22:20,885] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:22:58,759] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:22:59,096] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:22:59,331] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:22:59,812] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:23:00,046] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:23:00,256] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:24:10,680] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:24:10,684] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:24:10,684] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:24:10,686] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:24:10,686] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:24:10,687] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:29:41,990] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:29:43,595] - logger.py] - INFO: ------用户名密码为空：stop!---------
+[2017-12-01 09:29:43,596] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:29:44,076] - logger.py] - INFO: ------用户名为空，密码正确：stop!---------
+[2017-12-01 09:29:44,078] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:29:44,489] - logger.py] - INFO: ------用户名正确，密码为空：stop!---------
+[2017-12-01 09:29:44,490] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:29:47,375] - logger.py] - INFO: ------用户名密码为大写：stop!---------
+[2017-12-01 09:29:47,377] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:29:52,022] - logger.py] - INFO: ------用户名密码正确：stop!---------
+[2017-12-01 09:29:52,023] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:29:53,927] - logger.py] - INFO: ------退出登录：stop!---------
+[2017-12-01 09:40:47,594] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-12-01 09:40:48,796] - logger.py] - INFO: ------用户名密码为空：stop!---------
+[2017-12-01 09:40:48,801] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-12-01 09:40:49,908] - logger.py] - INFO: ------用户名为空，密码正确：stop!---------
+[2017-12-01 09:40:49,910] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-12-01 09:40:50,950] - logger.py] - INFO: ------用户名正确，密码为空：stop!---------
+[2017-12-01 09:40:50,951] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-12-01 09:40:53,411] - logger.py] - INFO: ------用户名密码为大写：stop!---------
+[2017-12-01 09:40:53,411] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-12-01 09:40:58,311] - logger.py] - INFO: ------用户名密码正确：stop!---------
+[2017-12-01 09:40:58,312] - logger.py] - INFO: ------退出登录：start!---------
+[2017-12-01 09:41:00,154] - logger.py] - INFO: ------退出登录：stop!---------
