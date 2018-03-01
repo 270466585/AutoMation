@@ -10,14 +10,14 @@ report_path=os.path.join(os.getcwd(),"Result")
 ###--------定义发送邮件函数-----------##
 def send_mail(report_file):
     # 发送邮箱
-    sender = "15002838657@163.com"
+    sender = "############"
     # 接收邮箱
-    receiver = "270466585@qq.com"
+    receiver = "############"
     # 发送邮件服务器
     smtpserver = "smtp.163.com"
     # 发送邮箱账号和密码
-    username = "15002838657@163.com"
-    password = "980660765a"
+    username = "############"
+    password = "############"
     # 读取测试报告的内容
     with open(report_file, "rb") as f:
         mail_body = f.read()

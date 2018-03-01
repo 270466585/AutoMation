@@ -20,7 +20,7 @@ class Loginpage(BasePage):
     Assertion_text6 = (By.ID, 'loginname')  # 验证登陆后，用户名
     Assertion_text8 = (By.LINK_TEXT,'确定')
     Assertion_text9 = (By.LINK_TEXT, '注销')
-    Assertion_url = 'http://testsupply.c29a3fa0912b04d208465201aca95c8ce.cn-shenzhen.alicontainer.com/'  # 退出登录断言
+    Assertion_url = '############'  # 退出登录断言
 
 
     def input_username(self, username):
