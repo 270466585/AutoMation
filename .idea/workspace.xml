@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="825d74f8-da7a-49ed-9e01-5f045939bccd" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TestCase1/__init__.py" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCase1/DD1_login_logout/__init__.py" afterPath="$PROJECT_DIR$/testCase/DD1_login_logout/__init__.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/TestCase1/DD1_login_logout/test_login_logout.py" afterPath="$PROJECT_DIR$/testCase/DD1_login_logout/test_login_logout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Base_page/LoginPage.py" afterPath="$PROJECT_DIR$/Base_page/LoginPage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Run_all.py" afterPath="$PROJECT_DIR$/Run_all.py" />
-    </list>
+    <list default="true" id="825d74f8-da7a-49ed-9e01-5f045939bccd" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -117,7 +110,7 @@
       <file leaf-file-name="read_Data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/read_Data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
+            <state relative-caret-position="836">
               <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
@@ -127,7 +120,7 @@
       <file leaf-file-name="LoginPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base_page/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
+            <state relative-caret-position="456">
               <caret line="25" column="39" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="39" />
               <folding>
                 <element signature="e#16#57#0" expanded="true" />
@@ -139,7 +132,7 @@
       <file leaf-file-name="Run_all.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Run_all.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1235">
+            <state relative-caret-position="505">
               <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
               <folding />
             </state>
@@ -149,7 +142,7 @@
       <file leaf-file-name="DriverPage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Base_page/DriverPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1241">
+            <state relative-caret-position="1425">
               <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
               <folding />
             </state>
@@ -269,7 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -316,6 +308,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -492,6 +485,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -713,7 +712,7 @@
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1348" height="686" extended-state="0" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23124042" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23430322" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26169845" sideWeight="0.503003" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1043,7 +1042,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="163">
           <caret line="50" column="4" lean-forward="false" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1058,15 +1056,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="39" column="38" lean-forward="false" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
-          <folding>
-            <element signature="e#16#31#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/common/read_Data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
+        <state relative-caret-position="836">
           <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
@@ -1074,7 +1069,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Base_page/DriverPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
+        <state relative-caret-position="1425">
           <caret line="80" column="8" lean-forward="false" selection-start-line="80" selection-start-column="8" selection-end-line="80" selection-end-column="8" />
           <folding />
         </state>
@@ -1082,7 +1077,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Base_page/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
+        <state relative-caret-position="456">
           <caret line="25" column="39" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="39" />
           <folding>
             <element signature="e#16#57#0" expanded="true" />
@@ -1100,7 +1095,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Run_all.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1235">
+        <state relative-caret-position="505">
           <caret line="67" column="19" lean-forward="true" selection-start-line="67" selection-start-column="19" selection-end-line="67" selection-end-column="19" />
           <folding />
         </state>

@@ -1,0 +1,4117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>供应链管理系统自动化测试报告：</title>
+    <meta name="generator" content="HTMLTestRunner 0.8.2"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    
+<style type="text/css" media="screen">
+body        { font-family: verdana, arial, helvetica, sans-serif; font-size: 80%; }
+table       { font-size: 100%; }
+pre         { }
+
+/* -- heading ---------------------------------------------------------------------- */
+h1 {
+    font-size: 16pt;
+    color: gray;
+}
+.heading {
+    margin-top: 0ex;
+    margin-bottom: 1ex;
+}
+
+.heading .attribute {
+    margin-top: 1ex;
+    margin-bottom: 0;
+}
+
+.button{  
+    border:1px solid #cccccc;  
+    cursor:pointer;  
+    margin:10px 5px;  
+    height:40px;  
+    text-align:center;  
+    border-radius: 4px;  
+    border-color: #636263 #464647 #A1A3A5;  
+    text-shadow: 0 1px 1px #F6F6F6;  
+    background-image: -moz-linear-gradient(center top, #D9D9D9, #A6A6A6 49%, #A6A6A6 50%);  
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #D9D9D9),color-stop(1, #A6A6A6));  
+}  
+
+.buttonText{  
+    position:relative;  
+    font-weight:bold;  
+    top:10px;
+    color:#58595B;  
+}   
+
+.heading .description {
+    margin-top: 4ex;
+    margin-bottom: 6ex;
+}
+
+.panel .description{  
+    border:1px solid #CCCCCC;  
+    border-color: #636263 #464647 #A1A3A5;  
+    margin:10px 5px;  
+    height:165px;  
+    border-radius: 4px;  
+}  
+.scroll-item {  
+    position: relative;  
+    width: 100%;  
+    height: 32px;  
+    border-bottom:1px solid gray;  
+    cursor: pointer;  
+}  
+.item-even {  
+    background-color: #E7E8EC;  
+}  
+      
+.item-odd {  
+    background-color: #E0ECF6;  
+}  
+.rect {  
+    float: left;  
+    margin-top: 5px;  
+    margin-left: 5px;  
+    width: 20px;  
+    height: 20px;  
+    border-radius: 3px;  
+}  
+.item-text{  
+    margin-left: 5px;  
+    height: 100%;  
+    float: left;  
+    font-size: 14px;   
+    vertical-align: middle;  
+    display: inline-block;  
+    line-height: 30px;  
+}  
+
+.bg{  
+    position:absolute;  
+    height:97%;  
+    width:80%;  
+    overflow-x: hidden;  
+    overflow-y:hidden;  
+}  
+.panel{  
+    position:absolute;  
+    height:550px;  
+    width:750px;  
+    left:45px;  
+    top:45px;  
+    border-radius: 12px;  
+    background-image: -moz-linear-gradient(top,#EBEBEB, #BFBFBF);  
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB),color-stop(1, #BFBFBF));  
+    }  
+.panel1{  
+    position:absolute;  
+    height:550px;  
+    width:200px;  
+    left:800px;  
+    top:45px;  
+    border-radius: 12px;  
+    background-image: -moz-linear-gradient(top,#EBEBEB, #BFBFBF);  
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #EBEBEB),color-stop(1, #BFBFBF));  
+    } 
+.panelBg{  
+    position:absolute;  
+    height:600px;  
+    width:1000px;  
+    left:20px;  
+    top:20px;  
+    border-radius: 12px;  
+    background-color:#000000;  
+    opacity:0.5;  
+}  
+
+.title{  
+    border:1px solid green;  
+    position:relative;  
+    margin:5px;  
+    font-size:22px;  
+    font-weight:bold;  
+    text-align:center;  
+    color:#58595B;  
+} 
+
+.piechart{  
+    border:1px solid green;  
+    margin:5px;  
+    height:170px;  
+} 
+
+.barchart{  
+    border:1px solid green;  
+    margin:5px;  
+    height:170px;  
+}  
+
+.linechart{  
+    border:1px solid green;  
+    margin:5px;  
+    height:170px;  
+} 
+     
+.subTitle{  
+    border:1px solid green;  
+    margin:5px;   
+    font-size:14px;  
+    height:70px;  
+    font-weight:bold;  
+    text-indent:2em;  
+    color:#6D6E71;  
+}  
+
+/* -- css div popup ------------------------------------------------------------------------ */
+a.popup_link {
+}
+
+a.popup_link:hover {
+    color: red;
+}
+
+.popup_window {
+    display: none;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    /*border: solid #627173 1px; */
+    padding: 10px;
+    background-color: #E6E6D6;
+    font-family: "Lucida Console", "Courier New", Courier, monospace;
+    text-align: left;
+    font-size: 8pt;
+    width: 500px;
+}
+
+}
+/* -- report ------------------------------------------------------------------------ */
+#show_detail_line {
+    margin-top: 3ex;
+    margin-bottom: 1ex;
+}
+#result_table {
+    width: 80%;
+    border-collapse: collapse;
+    border: 1px solid #777;
+}
+#header_row {
+    font-weight: bold;
+    color: white;
+    background-color: #777;
+}
+#result_table td {
+    border: 2px solid #777;
+    padding: 3px;
+}
+#total_row  { font-weight: bold; }
+.passClass  { background-color: #6c6; }
+.failClass  { background-color: #c60; }
+.errorClass { background-color: #c00; }
+.passCase   { color: #2F4F4F; font-weight: bold;}
+.failCase   { color: #c60; font-weight: bold; }
+.errorCase  { color: #c00; font-weight: bold; }
+.hiddenRow  { display: none; }
+.testcase   { margin-left: 2em; }
+
+#section1{  
+    border:1px solid green;  
+    position:relative;  
+    float:left;  
+    width:235px;  
+    height:530px;  
+    top:10px;  
+    left:10px;  
+}  
+#section2{  
+    border:1px solid green;  
+    position:relative;  
+    float:left;  
+    width:235px;  
+    height:530px;  
+    top:10px;  
+    left:20px;  
+}  
+#section3{  
+    border:1px solid green;  
+    position:relative;  
+    float:left;  
+    width:235px;  
+    height:530px;  
+    top:10px;  
+    left:30px;  
+}  
+#section4{  
+    border:1px solid green;  
+    position:relative;  
+    float:left;  
+    width:180px;  
+    height:530px;  
+    top:10px;  
+    left:10px;  
+}  
+
+/* -- ending ---------------------------------------------------------------------- */
+#ending {
+}
+
+</style>
+
+</head>
+<body style="background-color:#C0C0C0" >
+<script language="javascript" type="text/javascript"><!--
+output_list = Array();
+
+/* level - 0:Summary; 1:Pass; 2:Fail; 3:Error; 4:All */
+function showCase(level) {
+    trs = document.getElementsByTagName("tr");
+    for (var i = 0; i < trs.length; i++) {
+        tr = trs[i];
+        id = tr.id;
+        if (id.substr(0,2) == 'Ft') {
+            if (level == 2) {
+                tr.className = '';
+            }
+            else if(level == 4) {
+                tr.className = '';
+            }
+            else if(level == 5) {
+                tr.className = '';
+            }
+            else{
+                tr.className = 'hiddenRow';
+            }
+        }
+        if (id.substr(0,2) == 'Pt') {
+            if (level == 1) {
+                tr.className = '';
+            }
+            else if(level == 4 ) {
+                tr.className = '';
+            }
+            else{
+                tr.className = 'hiddenRow';
+            }
+        }
+        if (id.substr(0,2) == 'Et') {
+            if (level == 3) {
+                tr.className = '';
+            }
+            else if(level == 4 ) {
+                tr.className = '';
+            }
+            else if(level == 5 ) {
+                tr.className = '';
+            }
+            else{
+                tr.className = 'hiddenRow';
+            }
+        }
+    }
+}
+
+function showClassDetail(cid, count) {
+    var id_list = Array(count);
+    var toHide = 1;
+    for (var i = 0; i < count; i++) {
+        tid0 = 't' + cid.substr(1) + '.' + (i+1);
+        tid = 'F' + tid0;
+        tr = document.getElementById(tid);
+        if (!tr) {
+            tid = 'P' + tid0;
+            tr = document.getElementById(tid);
+            if(!tr){
+                tid = 'E' + tid0;
+                tr = document.getElementById(tid);
+            }
+        }
+        id_list[i] = tid;
+        if (tr.className) {
+            toHide = 0;
+        }
+    }
+    for (var i = 0; i < count; i++) {
+        tid = id_list[i];
+        if (toHide) {
+            document.getElementById('div_'+tid).style.display = 'none'
+            document.getElementById(tid).className = 'hiddenRow';
+        }
+        else {
+            document.getElementById(tid).className = '';
+        }
+    }
+}
+
+
+function showTestDetail(div_id){
+    var details_div = document.getElementById(div_id)
+    var displayState = details_div.style.display
+    // alert(displayState)
+    if (displayState != 'block' ) {
+        displayState = 'block'
+        details_div.style.display = 'block'
+    }
+    else {
+        details_div.style.display = 'none'
+    }
+}
+
+
+function html_escape(s) {
+    s = s.replace(/&/g,'&amp;');
+    s = s.replace(/</g,'&lt;');
+    s = s.replace(/>/g,'&gt;');
+    return s;
+}
+
+/* obsoleted by detail in <div>
+function showOutput(id, name) {
+    var w = window.open("", //url
+                    name,
+                    "resizable,scrollbars,status,width=800,height=450");
+    d = w.document;
+    d.write("<pre>");
+    d.write(html_escape(output_list[id]));
+    d.write("\n");
+    d.write("<a href='javascript:window.close()'>close</a>\n");
+    d.write("</pre>\n");
+    d.close();
+}
+*/
+--></script>
+
+<div class='heading'>
+<h1>供应链管理系统自动化测试报告：</h1>
+<p class='attribute'><strong>Start Time:</strong> 2017-11-21 17:29:25</p>
+<p class='attribute'><strong>Duration:</strong> 0:10:55.945429</p>
+<p class='attribute'><strong>Status:</strong> Pass 88 Failure 1 Error 15</p>
+
+<p class='description'>用例执行情况</p>
+</div>
+
+
+
+<p id='show_detail_line'>Show
+<a href='javascript:showCase(0)'>Summary</a>
+<a href='javascript:showCase(1)'>Pass</a>
+<a href='javascript:showCase(2)'>Fail</a>
+<a href='javascript:showCase(3)'>Error</a>
+<a href='javascript:showCase(5)'>Fail&Error</a>
+<a href='javascript:showCase(4)'>All</a>
+</p>
+<table id='result_table'>
+<colgroup>
+<col align='left' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+<col align='right' />
+</colgroup>
+<tr id='header_row'>
+    <td>Test Group/Test case</td>
+    <td>Count</td>
+    <td>Pass</td>
+    <td>Fail</td>
+    <td>Error</td>
+    <td>CaseInfo</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD1_login_logout.test_login_logout.Login_logout</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c1',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt1.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout1: 用户名密码为空</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.1')" >
+        pass</a>
+
+    <div id='div_Pt1.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.1: [2017-11-21 17:29:32,576] - logger.py] - INFO: ------用户名密码为空：start!---------
+[2017-11-21 17:29:33,457] - logger.py] - INFO: ------用户名密码为空：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt1.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout2: 用户名为空，密码正确</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.2')" >
+        pass</a>
+
+    <div id='div_Pt1.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.2: [2017-11-21 17:29:33,458] - logger.py] - INFO: ------用户名为空，密码正确：start!---------
+[2017-11-21 17:29:33,809] - logger.py] - INFO: ------用户名为空，密码正确：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt1.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout3: 用户名正确，密码为空</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.3')" >
+        pass</a>
+
+    <div id='div_Pt1.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.3: [2017-11-21 17:29:33,810] - logger.py] - INFO: ------用户名正确，密码为空：start!---------
+[2017-11-21 17:29:34,157] - logger.py] - INFO: ------用户名正确，密码为空：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt1.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout4: 用户名密码为大写</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.4')" >
+        pass</a>
+
+    <div id='div_Pt1.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.4: [2017-11-21 17:29:34,158] - logger.py] - INFO: ------用户名密码为大写：start!---------
+[2017-11-21 17:29:35,393] - logger.py] - INFO: ------用户名密码为大写：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt1.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout5: 用户名密码正确</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.5')" >
+        pass</a>
+
+    <div id='div_Pt1.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.5: [2017-11-21 17:29:35,394] - logger.py] - INFO: ------用户名密码正确：start!---------
+[2017-11-21 17:29:36,834] - logger.py] - INFO: ------用户名密码正确：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt1.6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_login_logout6: 退出登录</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt1.6')" >
+        pass</a>
+
+    <div id='div_Pt1.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt1.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt1.6: [2017-11-21 17:29:36,835] - logger.py] - INFO: ------退出登录：start!---------
+[2017-11-21 17:29:37,718] - logger.py] - INFO: ------退出登录：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_2Huopin.JiChu1</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt2.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_hp1: 添加货品类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt2.1')" >
+        pass</a>
+
+    <div id='div_Pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt2.1: [2017-11-21 17:29:49,591] - logger.py] - INFO: ------添加货品类别：start!---------
+[2017-11-21 17:29:57,920] - logger.py] - INFO: ------添加货品类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt2.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_hp2: 编辑货品类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt2.2')" >
+        pass</a>
+
+    <div id='div_Pt2.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt2.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt2.2: [2017-11-21 17:29:57,921] - logger.py] - INFO: ------编辑货品类别：start!---------
+[2017-11-21 17:30:06,839] - logger.py] - INFO: ------编辑货品类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt2.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_hp3: 禁用货品类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt2.3')" >
+        pass</a>
+
+    <div id='div_Pt2.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt2.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt2.3: [2017-11-21 17:30:06,840] - logger.py] - INFO: ------禁用货品类别：start!---------
+[2017-11-21 17:30:08,788] - logger.py] - INFO: ------禁用货品类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt2.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_hp4: 启用货品类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt2.4')" >
+        pass</a>
+
+    <div id='div_Pt2.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt2.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt2.4: [2017-11-21 17:30:08,789] - logger.py] - INFO: ------启用货品类别：start!---------
+[2017-11-21 17:30:11,161] - logger.py] - INFO: ------启用货品类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_3Baozhuang.JiChu2</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c3',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt3.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_bz1: 添加包装类型</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt3.1')" >
+        pass</a>
+
+    <div id='div_Pt3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt3.1: [2017-11-21 17:30:24,102] - logger.py] - INFO: ------添加包装类型：start!---------
+[2017-11-21 17:30:32,283] - logger.py] - INFO: ------添加包装类型：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt3.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_bz2: 编辑包装类型</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt3.2')" >
+        pass</a>
+
+    <div id='div_Pt3.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt3.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt3.2: [2017-11-21 17:30:32,283] - logger.py] - INFO: ------编辑包装类型：start!---------
+[2017-11-21 17:30:40,867] - logger.py] - INFO: ------编辑包装类型：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt3.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_bz3: 禁用包装类型</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt3.3')" >
+        pass</a>
+
+    <div id='div_Pt3.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt3.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt3.3: [2017-11-21 17:30:40,867] - logger.py] - INFO: ------禁用包装类型：start!---------
+[2017-11-21 17:30:42,775] - logger.py] - INFO: ------禁用包装类型：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt3.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_bz4: 启用包装类型</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt3.4')" >
+        pass</a>
+
+    <div id='div_Pt3.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt3.4: [2017-11-21 17:30:42,776] - logger.py] - INFO: ------启用包装类型：start!---------
+[2017-11-21 17:30:45,430] - logger.py] - INFO: ------启用包装类型：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_4Sku.JiChu3</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c4',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt4.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_SKU1: 新增SKU</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt4.1')" >
+        pass</a>
+
+    <div id='div_Pt4.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt4.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt4.1: [2017-11-21 17:30:57,761] - logger.py] - INFO: ------新增SKU：start!---------
+[2017-11-21 17:31:08,825] - logger.py] - INFO: ------新增SKU：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt4.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_SKU2: 编辑SKU</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt4.2')" >
+        pass</a>
+
+    <div id='div_Pt4.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt4.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt4.2: [2017-11-21 17:31:08,826] - logger.py] - INFO: ------编辑SKU：start!---------
+[2017-11-21 17:31:18,513] - logger.py] - INFO: ------编辑SKU：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt4.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_SKU3: 禁用SKU</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt4.3')" >
+        pass</a>
+
+    <div id='div_Pt4.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt4.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt4.3: [2017-11-21 17:31:18,514] - logger.py] - INFO: ------禁用SKU：start!---------
+[2017-11-21 17:31:21,591] - logger.py] - INFO: ------禁用SKU：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt4.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_SKU4: 启用SKU</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt4.4')" >
+        pass</a>
+
+    <div id='div_Pt4.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt4.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt4.4: [2017-11-21 17:31:21,591] - logger.py] - INFO: ------启用SKU：start!---------
+[2017-11-21 17:31:24,003] - logger.py] - INFO: ------启用SKU：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_5Kuquleibie.JiChu4</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c5',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt5.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kqlb1: 新增库区类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt5.1')" >
+        pass</a>
+
+    <div id='div_Pt5.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt5.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt5.1: [2017-11-21 17:31:36,204] - logger.py] - INFO: ------新增库区类别：start!---------
+[2017-11-21 17:31:43,931] - logger.py] - INFO: ------新增库区类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt5.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kqlb2: 编辑库区类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt5.2')" >
+        pass</a>
+
+    <div id='div_Pt5.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt5.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt5.2: [2017-11-21 17:31:43,932] - logger.py] - INFO: ------编辑库区类别：start!---------
+[2017-11-21 17:31:49,235] - logger.py] - INFO: ------编辑库区类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt5.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kqlb3: 禁用库区类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt5.3')" >
+        pass</a>
+
+    <div id='div_Pt5.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt5.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt5.3: [2017-11-21 17:31:49,235] - logger.py] - INFO: ------禁用库区类别：start!---------
+[2017-11-21 17:31:52,102] - logger.py] - INFO: ------禁用库区类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt5.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kqlb4: 启用库区类别</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt5.4')" >
+        pass</a>
+
+    <div id='div_Pt5.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt5.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt5.4: [2017-11-21 17:31:52,103] - logger.py] - INFO: ------启用库区类别：start!---------
+[2017-11-21 17:31:55,069] - logger.py] - INFO: ------启用库区类别：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_6Kuqu.JiChu5</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c6',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt6.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kq1</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt6.1')" >
+        pass</a>
+
+    <div id='div_Pt6.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt6.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt6.1: [2017-11-21 17:32:06,983] - logger.py] - INFO: ------新增库区：start!---------
+[2017-11-21 17:32:16,437] - logger.py] - INFO: ------新增库区：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt6.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kq2</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt6.2')" >
+        pass</a>
+
+    <div id='div_Pt6.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt6.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt6.2: [2017-11-21 17:32:16,438] - logger.py] - INFO: ------编辑库区：start!---------
+[2017-11-21 17:32:21,883] - logger.py] - INFO: ------编辑库区：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt6.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kq3</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt6.3')" >
+        pass</a>
+
+    <div id='div_Pt6.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt6.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt6.3: [2017-11-21 17:32:21,884] - logger.py] - INFO: ------禁用库区：start!---------
+[2017-11-21 17:32:24,811] - logger.py] - INFO: ------禁用库区：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt6.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kq4</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt6.4')" >
+        pass</a>
+
+    <div id='div_Pt6.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt6.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt6.4: [2017-11-21 17:32:24,812] - logger.py] - INFO: ------启用库区：start!---------
+[2017-11-21 17:32:27,596] - logger.py] - INFO: ------启用库区：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='failClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_7Gongyings.JiChu6</td>
+    <td>4</td>
+    <td>3</td>
+    <td>1</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c7',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt7.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_gyl1: 添加供应商</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt7.1')" >
+        pass</a>
+
+    <div id='div_Pt7.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt7.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt7.1: [2017-11-21 17:32:39,447] - logger.py] - INFO: ------添加供应商：start!---------
+[2017-11-21 17:32:49,324] - logger.py] - INFO: ------添加供应商：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Ft7.2' class='none'>
+    <td class='failCase'><div class='testcase'>test_gyl2: 编辑供应商</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Ft7.2')" >
+        fail</a>
+
+    <div id='div_Ft7.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Ft7.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Ft7.2: [2017-11-21 17:32:49,324] - logger.py] - INFO: ------编辑供应商：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/DD_jichuxinxi/test_7Gongyings.py", line 79, in test_gyl2
+    self.assertEqual(self.JC.assertion_test37(), read_Data.getExcel2(testData1, 2))
+AssertionError: 'TestData45' != 'TestData123'
+- TestData45
+?         ^^
++ TestData123
+?         ^^^
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt7.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_gyl3: 禁用供应商</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt7.3')" >
+        pass</a>
+
+    <div id='div_Pt7.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt7.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt7.3: [2017-11-21 17:32:54,810] - logger.py] - INFO: ------禁用供应商：start!---------
+[2017-11-21 17:32:56,898] - logger.py] - INFO: ------禁用供应商：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt7.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_gyl4: 启用供应商</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt7.4')" >
+        pass</a>
+
+    <div id='div_Pt7.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt7.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt7.4: [2017-11-21 17:32:56,899] - logger.py] - INFO: ------启用供应商：start!---------
+[2017-11-21 17:32:59,027] - logger.py] - INFO: ------启用供应商：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_8Kehu.JiChu7</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c8',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt8.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kh1: 添加客户信息</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt8.1')" >
+        pass</a>
+
+    <div id='div_Pt8.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt8.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt8.1: [2017-11-21 17:33:13,716] - logger.py] - INFO: ------添加客户信息：start!---------
+[2017-11-21 17:33:23,594] - logger.py] - INFO: ------添加客户信息：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt8.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kh2: 编辑客户信息</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt8.2')" >
+        pass</a>
+
+    <div id='div_Pt8.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt8.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt8.2: [2017-11-21 17:33:23,594] - logger.py] - INFO: ------编辑客户信息：start!---------
+[2017-11-21 17:33:32,675] - logger.py] - INFO: ------编辑客户信息：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt8.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kh3: 禁用客户信息</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt8.3')" >
+        pass</a>
+
+    <div id='div_Pt8.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt8.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt8.3: [2017-11-21 17:33:32,675] - logger.py] - INFO: ------禁用客户信息：start!---------
+[2017-11-21 17:33:35,290] - logger.py] - INFO: ------禁用客户信息：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt8.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_kh4: 启用客户信息</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt8.4')" >
+        pass</a>
+
+    <div id='div_Pt8.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt8.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt8.4: [2017-11-21 17:33:35,290] - logger.py] - INFO: ------启用客户信息：start!---------
+[2017-11-21 17:33:37,710] - logger.py] - INFO: ------启用客户信息：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.DD_jichuxinxi.test_9Hetong.JiChu8</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c9',5)">Detail</a></td>
+</tr>
+
+<tr id='Pt9.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_ht1: 添加供应链合同</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt9.1')" >
+        pass</a>
+
+    <div id='div_Pt9.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt9.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt9.1: [2017-11-21 17:33:50,445] - logger.py] - INFO: ------添加供应链合同：start!---------
+[2017-11-21 17:34:00,412] - logger.py] - INFO: ------添加供应链合同：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt9.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_ht2: 添加客户合同</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt9.2')" >
+        pass</a>
+
+    <div id='div_Pt9.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt9.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt9.2: [2017-11-21 17:34:00,412] - logger.py] - INFO: ------添加客户合同：start!---------
+[2017-11-21 17:34:09,900] - logger.py] - INFO: ------添加客户合同：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt9.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_ht3</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt9.3')" >
+        pass</a>
+
+    <div id='div_Pt9.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt9.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt9.3: [2017-11-21 17:34:09,900] - logger.py] - INFO: ------编辑合同：start!---------
+[2017-11-21 17:34:19,451] - logger.py] - INFO: ------编辑合同：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt9.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_ht4: 禁用合同</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt9.4')" >
+        pass</a>
+
+    <div id='div_Pt9.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt9.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt9.4: [2017-11-21 17:34:19,452] - logger.py] - INFO: ------禁用合同：start!---------
+[2017-11-21 17:34:21,479] - logger.py] - INFO: ------禁用合同：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt9.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_ht5: 启用合同</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt9.5')" >
+        pass</a>
+
+    <div id='div_Pt9.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt9.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt9.5: [2017-11-21 17:34:21,480] - logger.py] - INFO: ------启用合同：start!---------
+[2017-11-21 17:34:23,413] - logger.py] - INFO: ------启用合同：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.test_Caidan.CaiDan</td>
+    <td>5</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c10',5)">Detail</a></td>
+</tr>
+
+<tr id='Pt10.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL1: 创建菜单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt10.1')" >
+        pass</a>
+
+    <div id='div_Pt10.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt10.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt10.1: [2017-11-21 17:34:33,929] - logger.py] - INFO: ------创建菜单：start!---------
+[2017-11-21 17:34:38,705] - logger.py] - INFO: ------创建菜单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt10.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL2: 菜单编辑</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt10.2')" >
+        pass</a>
+
+    <div id='div_Pt10.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt10.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt10.2: [2017-11-21 17:34:38,706] - logger.py] - INFO: ------编辑菜单：start!---------
+[2017-11-21 17:34:41,636] - logger.py] - INFO: ------编辑菜单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt10.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL3: 菜单删除</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt10.3')" >
+        pass</a>
+
+    <div id='div_Pt10.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt10.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt10.3: [2017-11-21 17:34:41,637] - logger.py] - INFO: ------删除菜单：start!---------
+[2017-11-21 17:34:44,585] - logger.py] - INFO: ------删除菜单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt10.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL4: 菜单下移</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt10.4')" >
+        pass</a>
+
+    <div id='div_Pt10.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt10.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt10.4: [2017-11-21 17:34:44,586] - logger.py] - INFO: ------菜单下移：start!---------
+[2017-11-21 17:34:45,688] - logger.py] - INFO: ------菜单下移：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt10.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL5: 菜单上移</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt10.5')" >
+        pass</a>
+
+    <div id='div_Pt10.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt10.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt10.5: [2017-11-21 17:34:45,689] - logger.py] - INFO: ------菜单上移：start!---------
+[2017-11-21 17:34:46,696] - logger.py] - INFO: ------菜单上移：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.test_Geren.GeRen</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c11',2)">Detail</a></td>
+</tr>
+
+<tr id='Pt11.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_GRXX1</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt11.1')" >
+        pass</a>
+
+    <div id='div_Pt11.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt11.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt11.1: [2017-11-21 17:34:55,858] - logger.py] - INFO: ------修改用户名称：start!---------
+[2017-11-21 17:34:59,988] - logger.py] - INFO: ------修改用户名称：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt11.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_GRXX2</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt11.2')" >
+        pass</a>
+
+    <div id='div_Pt11.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt11.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt11.2: [2017-11-21 17:34:59,989] - logger.py] - INFO: ------修改密码：start!---------
+修改后的密码为：123456
+[2017-11-21 17:35:06,458] - logger.py] - INFO: ------修改密码：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD2_xitongshezhi.test_Juese.JueSe</td>
+    <td>5</td>
+    <td>0</td>
+    <td>0</td>
+    <td>5</td>
+    <td><a href="javascript:showClassDetail('c12',5)">Detail</a></td>
+</tr>
+
+<tr id='Et12.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_JSGL1: 创建角色</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et12.1')" >
+        error</a>
+
+    <div id='div_Et12.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et12.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et12.1: [2017-11-21 17:35:16,160] - logger.py] - INFO: ------创建角色：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Juese.py", line 48, in test_JSGL1
+    self.JS.assertion_test4(read_Data.getExcel2(testData,0),read_Data.getExcel2(testData,0))
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/JuesePage.py", line 46, in assertion_test4
+    self.send_keys(self.Assertion_elm14, data1)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 98, in send_keys
+    element = self.find_element(locator)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 73, in find_element
+    element = WebDriverWait(self.driver, timeout, 1).until(EC.presence_of_element_located(locator))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp0rsoe0b1/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp0rsoe0b1/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et12.2' class='none'>
+    <td class='errorCase'><div class='testcase'>test_JSGL2: 查看角色详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et12.2')" >
+        error</a>
+
+    <div id='div_Et12.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et12.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et12.2: [2017-11-21 17:35:23,339] - logger.py] - INFO: ------查看详情：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Juese.py", line 67, in test_JSGL2
+    self.JS.assertion_test5()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/JuesePage.py", line 54, in assertion_test5
+    self.click(self.Assertion_elm10)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1137, 316.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9000; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et12.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_JSGL3: 编辑角色</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et12.3')" >
+        error</a>
+
+    <div id='div_Et12.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et12.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et12.3: [2017-11-21 17:35:23,457] - logger.py] - INFO: ------编辑角色：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Juese.py", line 81, in test_JSGL3
+    self.JS.assertion_test7(read_Data.getExcel2(testData,1),read_Data.getExcel2(testData1,1))
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/JuesePage.py", line 62, in assertion_test7
+    self.click(self.Assertion_elm10)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1137, 316.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9000; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et12.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_JSGL4: 编辑权限</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et12.4')" >
+        error</a>
+
+    <div id='div_Et12.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et12.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et12.4: [2017-11-21 17:35:23,602] - logger.py] - INFO: ------编辑权限：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Juese.py", line 94, in test_JSGL4
+    self.JS.assertion_test9()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/JuesePage.py", line 74, in assertion_test9
+    self.click(self.Assertion_elm10)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1137, 316.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9000; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et12.5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_JSGL5: 删除角色</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et12.5')" >
+        error</a>
+
+    <div id='div_Et12.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et12.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et12.5: [2017-11-21 17:35:23,711] - logger.py] - INFO: ------删除角色：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Juese.py", line 106, in test_JSGL5
+    self.JS.assertion_test10()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/JuesePage.py", line 87, in assertion_test10
+    self.click(self.Assertion_elm10)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1137, 316.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9000; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD2_xitongshezhi.test_Mokuai.MoKuai</td>
+    <td>6</td>
+    <td>2</td>
+    <td>0</td>
+    <td>4</td>
+    <td><a href="javascript:showClassDetail('c13',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt13.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL1: 创建模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt13.1')" >
+        pass</a>
+
+    <div id='div_Pt13.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt13.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt13.1: [2017-11-21 17:35:35,904] - logger.py] - INFO: ------创建模块：start!---------
+[2017-11-21 17:35:40,992] - logger.py] - INFO: ------创建模块：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt13.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CDGL2: 查看模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt13.2')" >
+        pass</a>
+
+    <div id='div_Pt13.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt13.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt13.2: [2017-11-21 17:35:40,992] - logger.py] - INFO: ------查看模块：start!---------
+[2017-11-21 17:35:42,575] - logger.py] - INFO: ------查看模块：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et13.3' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CDGL3: 编辑模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et13.3')" >
+        error</a>
+
+    <div id='div_Et13.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et13.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et13.3: [2017-11-21 17:35:42,576] - logger.py] - INFO: ------编辑模块：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Mokuai.py", line 83, in test_CDGL3
+    self.MK.assertion_test8(read_Data.getExcel2(testData1,0),read_Data.getExcel2(testData,5))
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/MokuaiPage.py", line 84, in assertion_test8
+    self.click(self.Assertion_elm11)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 88, in click
+    element = self.find_element(locator)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 73, in find_element
+    element = WebDriverWait(self.driver, timeout, 1).until(EC.presence_of_element_located(locator))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp84mlaq0a/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp84mlaq0a/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et13.4' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CDGL4: 删除模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et13.4')" >
+        error</a>
+
+    <div id='div_Et13.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et13.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et13.4: [2017-11-21 17:35:52,503] - logger.py] - INFO: ------删除模块：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Mokuai.py", line 102, in test_CDGL4
+    self.MK.assertion_test10()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/MokuaiPage.py", line 90, in assertion_test10
+    self.click(self.Assertion_elm13)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1141, 526.7999877929688). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9012; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et13.5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CDGL5: 上移模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et13.5')" >
+        error</a>
+
+    <div id='div_Et13.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et13.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et13.5: [2017-11-21 17:35:52,675] - logger.py] - INFO: ------上移模块：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Mokuai.py", line 121, in test_CDGL5
+    self.MK.assertion_test12()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/MokuaiPage.py", line 109, in assertion_test12
+    self.click(self.Assertion_elm27)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1141, 351.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9012; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et13.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CDGL6: 下移模块</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et13.6')" >
+        error</a>
+
+    <div id='div_Et13.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et13.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et13.6: [2017-11-21 17:35:52,792] - logger.py] - INFO: ------下移模块：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD2_xitongshezhi/test_Mokuai.py", line 132, in test_CDGL6
+    self.MK.assertion_test13()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/System_settingsPage/MokuaiPage.py", line 115, in assertion_test13
+    self.click(self.Assertion_elm26)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1141, 316.79998779296875). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9012; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.test_Rizhi.RiZhi</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c14',1)">Detail</a></td>
+</tr>
+
+<tr id='Pt14.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CZRZ1: 操作日志</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt14.1')" >
+        pass</a>
+
+    <div id='div_Pt14.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt14.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt14.1: [2017-11-21 17:36:02,623] - logger.py] - INFO: ------操作日志：start!---------
+[2017-11-21 17:36:03,857] - logger.py] - INFO: ------操作日志：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD2_xitongshezhi.test_Yonghu.YongHu</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c15',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt15.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL1: 创建用户</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.1')" >
+        pass</a>
+
+    <div id='div_Pt15.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.1: [2017-11-21 17:36:16,414] - logger.py] - INFO: ------创建用户：start!---------
+[2017-11-21 17:36:21,801] - logger.py] - INFO: ------创建用户：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt15.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL2: 用户详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.2')" >
+        pass</a>
+
+    <div id='div_Pt15.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.2: [2017-11-21 17:36:21,801] - logger.py] - INFO: ------查看用户详情：start!---------
+[2017-11-21 17:36:23,297] - logger.py] - INFO: ------查看用户详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt15.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL3: 编辑用户</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.3')" >
+        pass</a>
+
+    <div id='div_Pt15.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.3: [2017-11-21 17:36:23,298] - logger.py] - INFO: ------编辑用户：start!---------
+[2017-11-21 17:36:27,852] - logger.py] - INFO: ------编辑用户：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt15.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL4: 重置密码</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.4')" >
+        pass</a>
+
+    <div id='div_Pt15.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.4: [2017-11-21 17:36:27,852] - logger.py] - INFO: ------重置密码：start!---------
+激活
+[2017-11-21 17:36:31,001] - logger.py] - INFO: ------重置密码：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt15.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL5: 冻结用户</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.5')" >
+        pass</a>
+
+    <div id='div_Pt15.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.5: [2017-11-21 17:36:31,002] - logger.py] - INFO: ------冻结用户：start!---------
+[2017-11-21 17:36:34,417] - logger.py] - INFO: ------冻结用户：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt15.6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_YHGL6: 激活用户</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt15.6')" >
+        pass</a>
+
+    <div id='div_Pt15.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt15.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt15.6: [2017-11-21 17:36:34,418] - logger.py] - INFO: ------激活用户：start!---------
+[2017-11-21 17:36:37,823] - logger.py] - INFO: ------激活用户：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD3_dingdanguanli.test_Caigou.CaiGou</td>
+    <td>6</td>
+    <td>6</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c16',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt16.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CGDD1: 创建采购订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.1')" >
+        pass</a>
+
+    <div id='div_Pt16.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.1: [2017-11-21 17:36:48,764] - logger.py] - INFO: ------创建采购订单：start!---------
+[2017-11-21 17:36:57,752] - logger.py] - INFO: ------创建采购订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt16.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CGDD2: 查看采购订单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.2')" >
+        pass</a>
+
+    <div id='div_Pt16.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.2: [2017-11-21 17:36:57,753] - logger.py] - INFO: ------查看采购订单详情：start!---------
+[2017-11-21 17:36:59,681] - logger.py] - INFO: ------查看采购订单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt16.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD3: 编辑采购订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.3')" >
+        pass</a>
+
+    <div id='div_Pt16.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.3: [2017-11-21 17:36:59,682] - logger.py] - INFO: ------编辑采购订单：start!---------
+[2017-11-21 17:37:08,627] - logger.py] - INFO: ------编辑采购订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt16.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD4: 审核采购订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.4')" >
+        pass</a>
+
+    <div id='div_Pt16.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.4: [2017-11-21 17:37:08,628] - logger.py] - INFO: ------审核采购订单：start!---------
+[2017-11-21 17:37:11,788] - logger.py] - INFO: ------审核采购订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt16.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD5: 重新编辑执行中的采购订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.5')" >
+        pass</a>
+
+    <div id='div_Pt16.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.5: [2017-11-21 17:37:11,788] - logger.py] - INFO: ------重新编辑执行中的采购订单：start!---------
+[2017-11-21 17:37:20,755] - logger.py] - INFO: ------重新编辑执行中的采购订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt16.6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD6: 采购订单编号筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt16.6')" >
+        pass</a>
+
+    <div id='div_Pt16.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt16.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt16.6: [2017-11-21 17:37:20,757] - logger.py] - INFO: ------采购订单编号筛选：start!---------
+模糊输入的采购订单编号为：24,筛选结果为:0条,没有筛选出包含24的订单编号
+[2017-11-21 17:37:22,105] - logger.py] - INFO: ------采购订单编号筛选：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD3_dingdanguanli.test_Chucang.Chucang</td>
+    <td>6</td>
+    <td>4</td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c17',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt17.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CCRK1: 创建入库单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt17.1')" >
+        pass</a>
+
+    <div id='div_Pt17.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt17.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt17.1: [2017-11-21 17:37:33,190] - logger.py] - INFO: ------创建入库单：start!---------
+[2017-11-21 17:37:39,795] - logger.py] - INFO: ------创建入库单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt17.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CCRK2: 查看入库单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt17.2')" >
+        pass</a>
+
+    <div id='div_Pt17.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt17.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt17.2: [2017-11-21 17:37:39,795] - logger.py] - INFO: ------查看入库单详情：start!---------
+[2017-11-21 17:37:42,883] - logger.py] - INFO: ------查看入库单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt17.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CCRK3: 作废入库单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt17.3')" >
+        pass</a>
+
+    <div id='div_Pt17.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt17.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt17.3: [2017-11-21 17:37:42,884] - logger.py] - INFO: ------作废入库单：start!---------
+[2017-11-21 17:37:47,425] - logger.py] - INFO: ------作废入库单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt17.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CCRK4: 重新编辑入库单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt17.4')" >
+        pass</a>
+
+    <div id='div_Pt17.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt17.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt17.4: [2017-11-21 17:37:47,425] - logger.py] - INFO: ------重新编辑入库单：start!---------
+[2017-11-21 17:37:53,172] - logger.py] - INFO: ------重新编辑入库单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et17.5' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CCRK5: 添加清单管理</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et17.5')" >
+        error</a>
+
+    <div id='div_Et17.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et17.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et17.5: [2017-11-21 17:37:53,172] - logger.py] - INFO: ------添加清单管理：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Chucang.py", line 155, in test_CCRK5
+    self.assertEqual(data, Data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Chucang.py", line 157, in test_CCRK5
+    Data=int(Data[12:14])
+TypeError: 'int' object is not subscriptable
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et17.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CCRK6: 入库单订单编号筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et17.6')" >
+        error</a>
+
+    <div id='div_Et17.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et17.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et17.6: [2017-11-21 17:37:59,949] - logger.py] - INFO: ------入库单订单编号筛选：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Chucang.py", line 170, in test_CCRK6
+    self.CC.assertion_test13(testData)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/Order_managementPage/ChucangPage.py", line 123, in assertion_test13
+    self.click(self.Assertion_elm30)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1259.6666259765625, 108). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9033; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD3_dingdanguanli.test_Jihua.Jihua</td>
+    <td>7</td>
+    <td>5</td>
+    <td>0</td>
+    <td>2</td>
+    <td><a href="javascript:showClassDetail('c18',7)">Detail</a></td>
+</tr>
+
+<tr id='Pt18.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKJH1: 创建多件入库</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt18.1')" >
+        pass</a>
+
+    <div id='div_Pt18.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt18.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt18.1: [2017-11-21 17:38:10,837] - logger.py] - INFO: ------创建清单入库：start!---------
+[2017-11-21 17:38:17,539] - logger.py] - INFO: ------创建清单入库：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt18.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKJH2: 创建清单入库</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt18.2')" >
+        pass</a>
+
+    <div id='div_Pt18.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt18.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt18.2: [2017-11-21 17:38:17,540] - logger.py] - INFO: ------创建清单入库：start!---------
+[2017-11-21 17:38:24,878] - logger.py] - INFO: ------创建清单入库：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt18.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKJH3: 查看入库计划单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt18.3')" >
+        pass</a>
+
+    <div id='div_Pt18.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt18.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt18.3: [2017-11-21 17:38:24,879] - logger.py] - INFO: ------查看计划入库单详情：start!---------
+[2017-11-21 17:38:27,120] - logger.py] - INFO: ------查看计划入库单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt18.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKJH4: 作废入库计划单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt18.4')" >
+        pass</a>
+
+    <div id='div_Pt18.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt18.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt18.4: [2017-11-21 17:38:27,121] - logger.py] - INFO: ------作废入库计划单：start!---------
+[2017-11-21 17:38:31,854] - logger.py] - INFO: ------作废入库计划单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt18.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKJH5: 重新编辑入库计划单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt18.5')" >
+        pass</a>
+
+    <div id='div_Pt18.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt18.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt18.5: [2017-11-21 17:38:31,855] - logger.py] - INFO: ------重新编辑入库计划单：start!---------
+[2017-11-21 17:38:35,513] - logger.py] - INFO: ------重新编辑入库计划单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et18.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_RKJH6: 添加入库计划清单管理</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et18.6')" >
+        error</a>
+
+    <div id='div_Et18.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et18.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et18.6: [2017-11-21 17:38:35,514] - logger.py] - INFO: ------添加入库计划清单管理：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Jihua.py", line 179, in test_RKJH6
+    self.assertEqual(data, Data)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py", line 829, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/unittest/case.py", line 822, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1 != 0
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Jihua.py", line 181, in test_RKJH6
+    Data=int(Data[12:14])
+TypeError: 'int' object is not subscriptable
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et18.7' class='none'>
+    <td class='errorCase'><div class='testcase'>test_RKJH7: 入库计划单订单编号筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et18.7')" >
+        error</a>
+
+    <div id='div_Et18.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et18.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et18.7: [2017-11-21 17:38:44,051] - logger.py] - INFO: ------入库计划单订单编号筛选：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Jihua.py", line 194, in test_RKJH7
+    self.JH.assertion_test16(testData)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/Order_managementPage/JihuaPage.py", line 153, in assertion_test16
+    self.click(self.Assertion_elm37)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1259.6666259765625, 108). Other element would receive the click: &lt;div class="window-mask" style="display: block; z-index: 9054; position: fixed;"&gt;&lt;/div&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD3_dingdanguanli.test_Xiaoshou.CaiGou</td>
+    <td>6</td>
+    <td>5</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c19',6)">Detail</a></td>
+</tr>
+
+<tr id='Pt19.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD1: 创建销售订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt19.1')" >
+        pass</a>
+
+    <div id='div_Pt19.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt19.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt19.1: [2017-11-21 17:38:55,450] - logger.py] - INFO: ------创建销售订单：start!---------
+[2017-11-21 17:39:04,910] - logger.py] - INFO: ------创建销售订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt19.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD2: 查看销售订单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt19.2')" >
+        pass</a>
+
+    <div id='div_Pt19.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt19.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt19.2: [2017-11-21 17:39:04,911] - logger.py] - INFO: ------查看销售订单详情：start!---------
+[2017-11-21 17:39:07,110] - logger.py] - INFO: ------查看销售订单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt19.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD3: 编辑销售订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt19.3')" >
+        pass</a>
+
+    <div id='div_Pt19.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt19.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt19.3: [2017-11-21 17:39:07,112] - logger.py] - INFO: ------编辑销售订单：start!---------
+订单当前状态为：待审核，编辑操作失败！！！
+[2017-11-21 17:39:14,899] - logger.py] - INFO: ------编辑销售订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt19.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD4: 审核销售订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt19.4')" >
+        pass</a>
+
+    <div id='div_Pt19.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt19.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt19.4: [2017-11-21 17:39:14,900] - logger.py] - INFO: ------审核销售订单：start!---------
+订单当前状态为：待审核，审核操作失败！！！
+[2017-11-21 17:39:15,129] - logger.py] - INFO: ------审核销售订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt19.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_XSDD5: 重新编辑执行中的销售订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt19.5')" >
+        pass</a>
+
+    <div id='div_Pt19.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt19.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt19.5: [2017-11-21 17:39:15,130] - logger.py] - INFO: ------重新编辑执行中的销售订单：start!---------
+订单当前状态为：待审核,重新编辑销售订单失败！！
+[2017-11-21 17:39:15,327] - logger.py] - INFO: ------重新编辑执行中的销售订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Et19.6' class='none'>
+    <td class='errorCase'><div class='testcase'>test_XSDD6: 销售订单编号筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et19.6')" >
+        error</a>
+
+    <div id='div_Et19.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et19.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et19.6: [2017-11-21 17:39:15,328] - logger.py] - INFO: ------销售订单编号筛选：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD3_dingdanguanli/test_Xiaoshou.py", line 152, in test_XSDD6
+    self.XS.assertion_test12(testData)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/Order_managementPage/XiaoshouPage.py", line 141, in assertion_test12
+    self.click(self.Assertion_elm44)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 89, in click
+    element.click()
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 72, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webelement.py", line 461, in _execute
+    return self._parent.execute(command, params)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/webdriver.py", line 236, in execute
+    self.error_handler.check_response(response)
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/remote/errorhandler.py", line 192, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Element is not clickable at point (1247.6666259765625, 108). Other element would receive the click: &lt;td colspan="7"&gt;&lt;/td&gt;
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='errorClass'>
+    <td>DD4_cangkuguanli.test_Chuku.ChuKU</td>
+    <td>9</td>
+    <td>8</td>
+    <td>0</td>
+    <td>1</td>
+    <td><a href="javascript:showClassDetail('c20',9)">Detail</a></td>
+</tr>
+
+<tr id='Et20.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_CKGL1: 出库管理清单管理</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Et20.1')" >
+        error</a>
+
+    <div id='div_Et20.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Et20.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Et20.1: [2017-11-21 17:39:26,995] - logger.py] - INFO: ------出库管理清单管理：start!---------
+Traceback (most recent call last):
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/testCase/DD4_cangkuguanli/test_Chuku.py", line 43, in test_CKGL1
+    self.CK.assertion_test14()
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/Warehouse_managementPage/ChukuPage.py", line 143, in assertion_test14
+    self.click(self.Assertion_elm25)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 88, in click
+    element = self.find_element(locator)
+  File "/Users/Macx/Desktop/svn/Aotomated_testing/Base_page/DriverPage.py", line 73, in find_element
+    element = WebDriverWait(self.driver, timeout, 1).until(EC.presence_of_element_located(locator))
+  File "/Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+    at FirefoxDriver.prototype.findElementInternal_ (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp8_xks06a/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+    at fxdriver.Timer.prototype.setTimeout/&lt;.notify (file:///var/folders/l7/__wmnjzn75x2y4kw_x7yhn240000gn/T/tmp8_xks06a/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL2: 查看出库管理单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.2')" >
+        pass</a>
+
+    <div id='div_Pt20.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.2: [2017-11-21 17:39:33,715] - logger.py] - INFO: ------查看出库管理单详情：start!---------
+[2017-11-21 17:39:36,179] - logger.py] - INFO: ------查看出库管理单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL3: 出库管理单缺货</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.3')" >
+        pass</a>
+
+    <div id='div_Pt20.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.3: [2017-11-21 17:39:36,180] - logger.py] - INFO: ------出库管理单缺货：start!---------
+订单当前状态为：已出库,无法进行缺货操作！！
+[2017-11-21 17:39:36,258] - logger.py] - INFO: ------出库管理单缺货：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL4: 出库管理单开始发货</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.4')" >
+        pass</a>
+
+    <div id='div_Pt20.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.4: [2017-11-21 17:39:36,258] - logger.py] - INFO: ------出库管理单开始发货：start!---------
+订单当前状态为：已出库,无法进行开始发货操作！！
+[2017-11-21 17:39:36,327] - logger.py] - INFO: ------出库管理单开始发货：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.5' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL5: 出库管理单完成备货</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.5')" >
+        pass</a>
+
+    <div id='div_Pt20.5' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.5').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.5: [2017-11-21 17:39:36,327] - logger.py] - INFO: ------出库管理单完成备货：start!---------
+订单当前状态为：已出库,无法进行完成备货操作！！
+[2017-11-21 17:39:36,372] - logger.py] - INFO: ------出库管理单完成备货：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.6' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL6: 出库管理单重新发货</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.6')" >
+        pass</a>
+
+    <div id='div_Pt20.6' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.6').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.6: [2017-11-21 17:39:36,373] - logger.py] - INFO: ------出库管理单重新发货：start!---------
+订单当前状态为：已出库,无法进行重新发货操作！！
+[2017-11-21 17:39:36,456] - logger.py] - INFO: ------出库管理单重新发货：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.7' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL7: 出库管理单物流信息</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.7')" >
+        pass</a>
+
+    <div id='div_Pt20.7' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.7').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.7: [2017-11-21 17:39:36,457] - logger.py] - INFO: ------出库管理单物流信息：start!---------
+订单当前状态为：已出库,无法添加物流信息操作！！
+[2017-11-21 17:39:36,510] - logger.py] - INFO: ------出库管理单物流信息：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.8' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL8: 出库管理单发货离库</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.8')" >
+        pass</a>
+
+    <div id='div_Pt20.8' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.8').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.8: [2017-11-21 17:39:36,511] - logger.py] - INFO: ------出库管理单发货离库：start!---------
+订单当前状态为：已出库,无法进行发货离库操作！！
+[2017-11-21 17:39:36,553] - logger.py] - INFO: ------出库管理单发货离库：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt20.9' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_CKGL9: 出库管理出库批次筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt20.9')" >
+        pass</a>
+
+    <div id='div_Pt20.9' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt20.9').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt20.9: [2017-11-21 17:39:36,554] - logger.py] - INFO: ------出库管理出库批次筛选：start!---------
+模糊输入的出库批次为：42,筛选结果为:0条,没有筛选出包含42的出库批次
+[2017-11-21 17:39:40,799] - logger.py] - INFO: ------出库管理出库批次筛选：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD4_cangkuguanli.test_Kucun.KuCun</td>
+    <td>2</td>
+    <td>2</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c21',2)">Detail</a></td>
+</tr>
+
+<tr id='Pt21.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_KCGL1: 库存管理SKU筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt21.1')" >
+        pass</a>
+
+    <div id='div_Pt21.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt21.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt21.1: [2017-11-21 17:39:51,641] - logger.py] - INFO: ------库存管理SKU筛选：start!---------
+[2017-11-21 17:39:53,899] - logger.py] - INFO: ------库存管理SKU筛选：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt21.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_KCGL2: 库存管理仓库筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt21.2')" >
+        pass</a>
+
+    <div id='div_Pt21.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt21.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt21.2: [2017-11-21 17:39:53,900] - logger.py] - INFO: ------库存管理仓库筛选：start!---------
+[2017-11-21 17:39:56,005] - logger.py] - INFO: ------库存管理仓库筛选：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr class='passClass'>
+    <td>DD4_cangkuguanli.test_Ruku.RuKu</td>
+    <td>4</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c22',4)">Detail</a></td>
+</tr>
+
+<tr id='Pt22.1' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKGL1: 查看入库订单详情</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt22.1')" >
+        pass</a>
+
+    <div id='div_Pt22.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt22.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt22.1: [2017-11-21 17:40:06,723] - logger.py] - INFO: ------查看入库订单详情：start!---------
+[2017-11-21 17:40:09,139] - logger.py] - INFO: ------查看入库订单详情：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt22.2' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKGL2: 作废入库订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt22.2')" >
+        pass</a>
+
+    <div id='div_Pt22.2' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt22.2').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt22.2: [2017-11-21 17:40:09,139] - logger.py] - INFO: ------作废入库订单：start!---------
+[2017-11-21 17:40:13,460] - logger.py] - INFO: ------作废入库订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt22.3' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKGL3: 确认入库订单</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt22.3')" >
+        pass</a>
+
+    <div id='div_Pt22.3' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt22.3').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt22.3: [2017-11-21 17:40:13,460] - logger.py] - INFO: ------确认入库订单：start!---------
+PASS
+[2017-11-21 17:40:19,562] - logger.py] - INFO: ------确认入库订单：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='Pt22.4' class='hiddenRow'>
+    <td class='passCase'><div class='testcase'>test_RKGL4: 入库管理订单编号筛选</div></td>
+    <td colspan='4' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_Pt22.4')" >
+        pass</a>
+
+    <div id='div_Pt22.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_Pt22.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+Pt22.4: [2017-11-21 17:40:19,563] - logger.py] - INFO: ------入库管理订单编号筛选：start!---------
+[2017-11-21 17:40:20,966] - logger.py] - INFO: ------入库管理订单编号筛选：stop!---------
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td colspan='1' align='center'>
+No Case Detail
+</td>
+</tr>
+
+<tr id='total_row'>
+    <td>Total and Rate</td>
+    <td>104</td>
+    <td>88</td>
+    <td>1</td>
+    <td>15</td>
+    <td>Proportion:88/104</td>
+</tr>
+</table>
+
+<div id='ending'>&nbsp;</div>
+<div class="bg">
+                       <div class="panelBg"></div>  
+                       <div class="panel"> 
+                       <div id="section1"> 
+                           <div class="title">Pie Chart</div>  
+                           <div class="subTitle">This chart is to show the rate that statis of test cases</div> 
+                           <div class="piechart">   
+                               <canvas id="circle" width="225" height="168" onmousemove='javascript:drawCircle(88, 1, 15)'>your browser does not support the canvas tag</canvas>
+                           </div> 
+                           <div class="description">  
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #6c6; "></div>  
+                               <div class="item-text">Passcase:88</div>  
+                           </div>  
+                           <div class="scroll-item item-odd">  
+                               <div class="rect" style="background-color: #c60; "></div>  
+                               <div class="item-text">failcase:1</div>  
+                           </div>   
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #c00; "></div>  
+                               <div class="item-text">errorcase:15</div>  
+                           </div> 
+                           <div class="scroll-item item-odd">  
+                           </div> 
+                           <div class="scroll-item item-even">    
+                           </div> 
+                       </div> 
+
+                       </div>  
+                       <div id="section2">  
+                       <div class="title">Bar Chart</div>  
+                           <div class="subTitle">This chart is to show the count that statis of test cases</div> 
+                           <div class="barchart">   
+                               <canvas id="bar" width="225" height="168" onclick='javascript:drawBar(88, 1, 15)'>your browser does not support the canvas tag</canvas>
+                           </div> 
+                           <div class="description">  
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #6c6; "></div>  
+                               <div class="item-text">Passcase:88</div>  
+                           </div>  
+                           <div class="scroll-item item-odd">  
+                               <div class="rect" style="background-color: #c60; "></div>  
+                               <div class="item-text">failcase:1</div>  
+                           </div>   
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #c00; "></div>  
+                               <div class="item-text">errorcase:15</div>  
+                           </div> 
+                           <div class="scroll-item item-odd">  
+                           </div> 
+                           <div class="scroll-item item-even">    
+                           </div> 
+                       </div> 
+
+                       </div>  
+                       <div id="section3"> 
+                        <div class="title">Line Chart</div>  
+                           <div class="subTitle">This chart is to show the rate that data of test cases</div> 
+                           <div class="linechart">   
+                               <canvas id="line" width="225" height="168" onclick='javascript:drawline(88, 1, 15)'>your browser does not support the canvas tag</canvas>
+                           </div> 
+                           <div class="description">  
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #6c6; "></div>  
+                               <div class="item-text">Passcase:88</div>  
+                           </div>  
+                           <div class="scroll-item item-odd">  
+                               <div class="rect" style="background-color: #c60; "></div>  
+                               <div class="item-text">failcase:1</div>  
+                           </div>   
+                           <div class="scroll-item item-even">  
+                               <div class="rect" style="background-color: #c00; "></div>  
+                               <div class="item-text">errorcase:15</div>  
+                           </div> 
+                           <div class="scroll-item item-odd">  
+                           </div> 
+                           <div class="scroll-item item-even">    
+                           </div> 
+                       </div> 
+
+                       </div>
+                       </div>
+                       <div class="panel1">
+                       <div id="section4">
+                           <a>88 Pass cases, 1 fail cases, 15 error cases.</a>
+                       </div>
+                       </div>
+                    </div>
+</body>
+</html>
+<script type="text/javascript"> 
+function drawCircle(pass, fail, error){ 
+    var color = ["#6c6","#c60","#c00"];  
+    var data = [pass,fail,error]; 
+    var canvas = document.getElementById("circle");  
+    var ctx = canvas.getContext("2d");  
+    var startPoint=0;  
+    for(var i=0;i<data.length;i++){  
+        ctx.fillStyle = color[i];  
+        ctx.beginPath();  
+        ctx.moveTo(112,84);   
+        ctx.arc(112,84,84,startPoint,startPoint+Math.PI*2*(data[i]/(data[0]+data[1]+data[2])),false);  
+        ctx.fill();  
+        startPoint += Math.PI*2*(data[i]/(data[0]+data[1]+data[2]));  
+    }  
+}
+
+function FillRect(cxt, x1, y1, width, height, color) {
+    cxt.fillStyle = color; 
+    cxt.fillRect(x1, y1, width, height);
+} 
+
+function drawBar(pass, fail, error){ 
+
+    var color = ["#6c6","#c60","#c00"];  
+    var data = [pass,fail,error];
+    var count = pass + fail + error;
+    var h =[10+(1 - pass/count)*148,10+(1 - fail/count)*148,10+(1 - error/count)*148];
+    var x = [30,90,150];
+    var y = [70,130,190];
+    var canvas = document.getElementById("bar");  
+    var ctx = canvas.getContext("2d");
+    DrawString(ctx, 'Count(c)', '', '', '', '', 15, 10)
+    DrawLine(ctx,5,15,10,10,'black');
+    DrawLine(ctx,15,15,10,10,'black');
+    DrawLine(ctx,10,10,10,158,'black');
+    DrawLine(ctx,10,158,215,158,'black');
+    DrawLine(ctx,210,153,215,158,'black');
+    DrawLine(ctx,210,163,215,158,'black');
+    DrawString(ctx, 'Type(c)', '', '', '', '', 180, 160)
+    for(var i=0;i<3;i++) {
+        DrawLine(ctx,x[i],h[i],x[i],158,color[i]);
+        DrawLine(ctx,x[i],h[i],y[i],h[i],color[i]);
+        DrawLine(ctx,y[i],h[i],y[i],158,color[i]); 
+        DrawLine(ctx,(y[i]+x[i])/2,153,(y[i]+x[i])/2,158,color[i]);
+        DrawString(ctx, data[i], '', color[i], '', '', (y[i]+x[i])/2, h[i]-15);
+        FillRect(ctx, x[i], h[i], 40, 158-h[i], color[i]);
+    }
+} 
+
+function DrawP(ctx, P) {
+    with (ctx) {
+        moveTo(P[0],P[1]);
+        lineTo(P[0]+1,P[1]+1);
+     }
+}
+
+function DrawLine(cxt, x1, y1, x2, y2, color) {
+
+    cxt.strokeStyle = color;
+    cxt.beginPath();
+    cxt.moveTo(x1, y1);
+    cxt.lineTo(x2, y2);
+    cxt.stroke();
+}
+
+function DrawString(cxt, text, font, color, align, v_align, x, y) {
+    if (font == "") {
+        cxt.font = "10px";
+    }
+    else {
+        cxt.font = font;
+    }
+    if (color == "") {
+        cxt.fillStyle = "#000000";
+    }
+    else {
+        cxt.fillStyle = color;
+    }
+    if (align == "") {
+        cxt.textAlign = "left";
+    }
+    else {
+        cxt.textAlign = align;
+    }
+    if (v_align == "") {
+        cxt.textBaseline = "top";
+    }
+    else {
+        cxt.textBaseline = v_align;
+    }
+    cxt.fillText(text, x, y);
+}
+
+function drawline(pass, fail, error){ 
+    var color = ["#6c6","#c60","#c00"];  
+    var data = [pass,fail,error];
+    var count = pass + fail + error;
+    var x = [30,90,150];
+    var y = [70,130,190];
+    var h =[10+(1 - pass/count)*148,10+(1 - fail/count)*148,10+(1 - error/count)*148];
+    var canvas = document.getElementById("line");  
+    var ctx = canvas.getContext("2d");
+    DrawString(ctx, 'Count(c)', '', '', '', '', 15, 10)
+    DrawLine(ctx,5,15,10,10,'black');
+    DrawLine(ctx,15,15,10,10,'black');
+    DrawLine(ctx,10,10,10,158,'black');
+    DrawLine(ctx,10,158,215,158,'black');
+    DrawLine(ctx,210,153,215,158,'black');
+    DrawLine(ctx,210,163,215,158,'black');
+    DrawString(ctx, 'Type(c)', '', '', '', '', 180, 160)
+    for(var i=0;i<3;i++) {
+        p = Array((y[i]+x[i])/2,h[i]);
+        DrawP(ctx,p);
+        DrawLine(ctx,(y[i]+x[i])/2,153,(y[i]+x[i])/2,158,color[i]);
+        DrawString(ctx, data[i], '', color[i], '', '', (y[i]+x[i])/2, h[i]-15);
+        if(i < 2) {
+        
+            DrawLine(ctx,(y[i]+x[i])/2,h[i],(y[i+1]+x[i+1])/2,h[i+1],'black');
+            
+        }
+        
+    }
+    
+} 
+
+</script>  
