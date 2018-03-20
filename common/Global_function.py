@@ -6,7 +6,7 @@ import time as t
 '''
 该页面和内容方法适合整个自动化
 '''
-login_url = "http://testsupply20171114.c29a3fa0912b04d208465201aca95c8ce.cn-shenzhen.alicontainer.com/login"
+login_url = "#################"
 
 
 def login(self):
